@@ -1,4 +1,5 @@
 fn main() {
     println!("Hello, P11!");
-    println!("Environment is good ✅");
+    println!("Rust version: {}", env!("RUSTC_VERSION"));
+    println!("Rust environment is ready! ✅");
 }
